@@ -7,22 +7,38 @@ This document outlines the structure of the TTSHUB project.
 
 ```
 TTSHUB/
-├── src/
-│   ├── main.py
-│   └── utilities/
-├── docs/
-│   └── PROJECT_STRUCTURE.md
-└── tests/
-    └── test_main.py
+├── .github/
+│   └── workflows/
+│       └── blank.yml
+├── .gitignore
+├── API.md
+├── ARCHITECTURE.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── IMPROVEMENTS_SUMMARY.md
+├── LICENSE
+├── PROJECT_STRUCTURE.md
+├── README.md
+└── SETUP.md
 ```
 
 ## Description
-- **src/**: Contains the source code of the application.
-   - **main.py**: The main entry point of the application.
-   - **utilities/**: A directory for utility functions and classes.
+- **.github/workflows/**: GitHub Actions CI/CD workflow configurations.
 
-- **docs/**: Documentation files.
-   - **PROJECT_STRUCTURE.md**: Project structure documentation.
+- **API.md**: Full API endpoint documentation for all service categories.
 
-- **tests/**: Contains test files.
-   - **test_main.py**: Test cases for main.py.
+- **ARCHITECTURE.md**: Overview of the system architecture and components.
+
+- **CODE_OF_CONDUCT.md**: Community standards and expected behavior for contributors.
+
+- **CONTRIBUTING.md**: Guidelines for contributing to the project.
+
+- **IMPROVEMENTS_SUMMARY.md**: Changelog of recent improvements and updates.
+
+- **LICENSE**: MIT License governing usage and distribution.
+
+- **PROJECT_STRUCTURE.md**: This document; describes the repository layout.
+
+- **README.md**: Project overview, features, tech stack, and getting started guide.
+
+- **SETUP.md**: Installation and setup instructions for running the project locally.
